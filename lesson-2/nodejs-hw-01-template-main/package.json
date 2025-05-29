@@ -1,0 +1,28 @@
+{
+  "name": "goit-node-js",
+  "version": "1.0.0",
+  "description": "goit-node-js",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "generate": "node src/scripts/albums/generateAlbums",
+    "get-all": "node src/scripts/getAllContacts",
+    "add-one": "node src/scripts/albums/addOneAlbum",
+    "count": "node src/scripts/albums/countAlbums",
+    "remove-last": "node src/scripts/albums/removeLastAlbum",
+    "remove-all": "node src/scripts/albums/removeAllAlbums"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "@faker-js/faker": "^9.8.0",
+    "eslint": "^9.2.0",
+    "globals": "^15.1.0"
+  },
+  "dependencies": {
+    "detect-file-encoding-and-language": "^2.4.0"
+  }
+}
